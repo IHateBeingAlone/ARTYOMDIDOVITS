@@ -43,7 +43,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(115, 20);
             this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -51,7 +50,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 20);
             this.textBox2.TabIndex = 1;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // Plus
             // 
@@ -61,7 +59,7 @@
             this.Plus.TabIndex = 3;
             this.Plus.Text = "+";
             this.Plus.UseVisualStyleBackColor = true;
-            this.Plus.TextChanged += new System.EventHandler(this.button1_Click);
+            this.Plus.TextChanged += new System.EventHandler(this.button_Click);
             this.Plus.Click += new System.EventHandler(this.button_Click);
             // 
             // Multiplication
@@ -72,7 +70,6 @@
             this.Multiplication.TabIndex = 4;
             this.Multiplication.Text = "*";
             this.Multiplication.UseVisualStyleBackColor = true;
-            this.Multiplication.TextChanged += new System.EventHandler(this.button3_Click);
             this.Multiplication.Click += new System.EventHandler(this.button_Click);
             // 
             // Minus
@@ -83,7 +80,6 @@
             this.Minus.TabIndex = 5;
             this.Minus.Text = "-";
             this.Minus.UseVisualStyleBackColor = true;
-            this.Minus.TextChanged += new System.EventHandler(this.button2_Click);
             this.Minus.Click += new System.EventHandler(this.button_Click);
             // 
             // Division
@@ -94,7 +90,6 @@
             this.Division.TabIndex = 6;
             this.Division.Text = "/";
             this.Division.UseVisualStyleBackColor = true;
-            this.Division.TextChanged += new System.EventHandler(this.button4_Click);
             this.Division.Click += new System.EventHandler(this.button_Click);
             // 
             // label1
@@ -104,8 +99,6 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(214, 57);
             this.label1.TabIndex = 7;
-            this.label1.TextChanged += new System.EventHandler(this.label1_Click);
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
@@ -121,7 +114,6 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
