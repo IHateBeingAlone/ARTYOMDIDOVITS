@@ -15,5 +15,65 @@ namespace ARTYOMiNIKITIKUS
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string FirstValueText = textBox1.Text;
+            double FirstValue = Convert.ToDouble(FirstValueText);
+            string SecondValueText = textBox2.Text;
+            double SecondValue = Convert.ToDouble(SecondValueText);
+            double result = FirstValue - SecondValue;
+            label1.Text = result.ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string FirstValueText = textBox1.Text;
+            double FirstValue = Convert.ToDouble(FirstValueText);
+            string SecondValueText = textBox2.Text;
+            double SecondValue = Convert.ToDouble(SecondValueText);
+            double result = FirstValue + SecondValue;
+            label1.Text = result.ToString();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string FirstValueText = textBox1.Text;
+            double FirstValue = Convert.ToDouble(FirstValueText);
+            string SecondValueText = textBox2.Text;
+            double SecondValue = Convert.ToDouble(SecondValueText);
+            double result = FirstValue * SecondValue;
+            label1.Text = result.ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string FirstValueText = textBox1.Text;
+            double FirstValue = Convert.ToDouble(FirstValueText);
+            string SecondValueText = textBox2.Text;
+            double SecondValue = Convert.ToDouble(SecondValueText);
+            double result = FirstValue / SecondValue;
+            label1.Text = result.ToString();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
