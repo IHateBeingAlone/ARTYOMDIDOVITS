@@ -75,5 +75,33 @@ namespace ARTYOMiNIKITIKUS
         {
 
         }
+
+        private void button_Click(object sender, EventArgs e)
+        {
+            string FirstValueText = textBox1.Text;
+            double FirstValue = Convert.ToDouble(FirstValueText);
+            string SecondValueText = textBox2.Text;
+            double SecondValue = Convert.ToDouble(SecondValueText);
+            double result;
+            switch (((Button)sender).Name)
+            {
+                case "Plus":
+                    result = FirstValue + SecondValue;
+                    break;
+                case "Minus":
+                    result = FirstValue - SecondValue;
+                    break;
+                case "Multiplication":
+                    result = FirstValue * SecondValue;
+                    break;
+                case "Division":
+                    result = FirstValue / SecondValue;
+                    break;
+                default:
+                    throw new Exception ("error");
+            }
+
+            label1.Text = Convert.ToString(result);
+        }
     }
 }
