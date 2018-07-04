@@ -29,5 +29,15 @@ namespace ARTYOMiNIKITIKUS
             double result = calculator.Calculate(firstValue, secondValue);
             label1.Text = Convert.ToString(result, CultureInfo.CurrentCulture);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string firstValueText = textBox1.Text;
+            double firstValue = Convert.ToDouble(firstValueText);
+            string calculatorName = ((Button)sender).Name;
+            IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(calculatorName);
+            double result = calculator.Calculate(firstValue);
+            label1.Text = Convert.ToString(result, CultureInfo.CurrentCulture);
+        }
     }
 }
