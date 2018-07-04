@@ -46,7 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\SinTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TwoArguments\DivisionTests.cs" />
+    <Compile Include="TwoArguments\MinusTests.cs" />
+    <Compile Include="TwoArguments\MultiplicatoinTests.cs" />
     <Compile Include="TwoArguments\PlusTests.cs" />
   </ItemGroup>
   <ItemGroup>

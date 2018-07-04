@@ -4,14 +4,16 @@ using NUnit.Framework;
 namespace ARTYONiNIKITIKUS.Tests.TwoArguments
 {
     [TestFixture]
-    public class DivisoinTests
+    public class DivisionTests
     {
-        [Test]
-        public void CalculateTest()
+        [TestCase(15, 6, 2.5)]
+        [TestCase(18, 6, 3)]
+        [TestCase(27, 6, 4.5)]
+        public void CalculateTest(double firstValue, double secondValue, double expected)
         {
-            ITwoArgumentsCalculator calculator = new Division();
-            double actual = calculator.Calculate(4, 7);
-            Assert.AreEqual(28, actual);
+            var calculator = new Division();
+            var actualResult = calculator.Calculate(firstValue, secondValue);
+            Assert.AreEqual(expected, actualResult);
         }
     }
 }

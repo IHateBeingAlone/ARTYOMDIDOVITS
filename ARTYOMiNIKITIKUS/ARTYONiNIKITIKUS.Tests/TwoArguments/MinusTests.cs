@@ -6,12 +6,14 @@ namespace ARTYONiNIKITIKUS.Tests.TwoArguments
     [TestFixture]
     public class MinusTests
     {
-        [Test]
-        public void CalculateTest()
+        [TestCase(8, 4, 4)]
+        [TestCase(16, 7, 9)]
+        [TestCase(84, 51, 33)]
+        public void CalculateTest(double firstValue, double secondValue, double expected)
         {
-            ITwoArgumentsCalculator calculator = new Minus();();
-            double actual = calculator.Calculate(5, 3);
-            Assert.AreEqual(8, actual);
+            var calculator = new Minus();
+            var actualResult = calculator.Calculate(firstValue, secondValue);
+            Assert.AreEqual(expected, actualResult);
         }
     }
 }
