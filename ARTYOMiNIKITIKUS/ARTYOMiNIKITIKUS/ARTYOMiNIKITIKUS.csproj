@@ -43,12 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OneArgumentClasses\Cos.cs" />
-    <Compile Include="OneArgumentClasses\Abs.cs" />
+    <Compile Include="OneArgument\Cos.cs" />
+    <Compile Include="OneArgument\Abs.cs" />
     <Compile Include="IOneArgumentCalculator.cs" />
     <Compile Include="OneArgumentFactory.cs" />
-    <Compile Include="TwoArgumetsClasses\Plus.cs" />
-    <Compile Include="TwoArgumetsClasses\Division.cs" />
+    <Compile Include="TwoArguments\Plus.cs" />
+    <Compile Include="TwoArguments\Division.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,14 +56,14 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="ITwoArgumentsCalculator.cs" />
-    <Compile Include="TwoArgumetsClasses\Minus.cs" />
-    <Compile Include="TwoArgumetsClasses\Multiplication.cs" />
-    <Compile Include="OneArgumentClasses\Ctg.cs" />
+    <Compile Include="TwoArguments\Minus.cs" />
+    <Compile Include="TwoArguments\Multiplication.cs" />
+    <Compile Include="OneArgument\Ctg.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="OneArgumentClasses\Sin.cs" />
-    <Compile Include="OneArgumentClasses\Sqrt.cs" />
-    <Compile Include="OneArgumentClasses\Tg.cs" />
+    <Compile Include="OneArgument\Sin.cs" />
+    <Compile Include="OneArgument\Sqrt.cs" />
+    <Compile Include="OneArgument\Tg.cs" />
     <Compile Include="TwoArgumentsFactory.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

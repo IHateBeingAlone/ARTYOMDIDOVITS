@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARTYOMiNIKITIKUS", "ARTYOMiNIKITIKUS\ARTYOMiNIKITIKUS.csproj", "{00847CBF-B438-4503-B914-D512F7AC8F73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARTYONiNIKITIKUS.Tests", "ARTYONiNIKITIKUS.Tests\ARTYONiNIKITIKUS.Tests.csproj", "{554383B1-1699-4A73-9E4E-6339AD462FAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{00847CBF-B438-4503-B914-D512F7AC8F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00847CBF-B438-4503-B914-D512F7AC8F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00847CBF-B438-4503-B914-D512F7AC8F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554383B1-1699-4A73-9E4E-6339AD462FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554383B1-1699-4A73-9E4E-6339AD462FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554383B1-1699-4A73-9E4E-6339AD462FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554383B1-1699-4A73-9E4E-6339AD462FAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
