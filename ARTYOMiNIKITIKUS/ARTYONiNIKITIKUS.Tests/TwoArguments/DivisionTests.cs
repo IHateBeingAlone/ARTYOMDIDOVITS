@@ -6,7 +6,7 @@ namespace ARTYONiNIKITIKUS.Tests.TwoArguments
     [TestFixture]
     public class DivisionTests
     {
-        [TestCase(15, 6, 2.5)]
+        [TestCase(16, 4, 4)]
         [TestCase(18, 6, 3)]
         [TestCase(27, 6, 4.5)]
         public void CalculateTest(double firstValue, double secondValue, double expected)

@@ -46,7 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\AbsTests.cs" />
+    <Compile Include="OneArgument\CosTests.cs" />
+    <Compile Include="OneArgument\CtgTests.cs" />
     <Compile Include="OneArgument\SinTests.cs" />
+    <Compile Include="OneArgument\SqrtTests.cs" />
+    <Compile Include="OneArgument\TgTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArguments\DivisionTests.cs" />
     <Compile Include="TwoArguments\MinusTests.cs" />

@@ -4,14 +4,14 @@ using NUnit.Framework;
 namespace ARTYONiNIKITIKUS.Tests.OneArguments
 {
     [TestFixture]
-    public class SinTests
+    public class CosTests
     {
-        [TestCase(0, 0)]
-        [TestCase(1, 0.8415)]
-        [TestCase(7, 0.6570)]
+        [TestCase(0, 1)]
+        [TestCase(1, 0.5403)]
+        [TestCase(7, 0.7540)]
         public void CalculateTest(double firstValue, double expected)
         {
-            var calculator = new Sin();
+            var calculator = new Cos();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult, 0.0001);
         }

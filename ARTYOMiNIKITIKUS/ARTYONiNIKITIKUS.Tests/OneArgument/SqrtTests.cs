@@ -4,16 +4,16 @@ using NUnit.Framework;
 namespace ARTYONiNIKITIKUS.Tests.OneArguments
 {
     [TestFixture]
-    public class SinTests
+    public class SqrtTests
     {
-        [TestCase(0, 0)]
-        [TestCase(1, 0.8415)]
-        [TestCase(7, 0.6570)]
+        [TestCase(16, 4)]
+        [TestCase(900, 30)]
+        [TestCase(121, 11)]
         public void CalculateTest(double firstValue, double expected)
         {
-            var calculator = new Sin();
+            var calculator = new Sqrt();
             var actualResult = calculator.Calculate(firstValue);
-            Assert.AreEqual(expected, actualResult, 0.0001);
+            Assert.AreEqual(expected, actualResult);
         }
     }
 }
