@@ -14,14 +14,21 @@ namespace ARTYOMiNIKITIKUS
 
         private void button_Click(object sender, EventArgs e)
         {
-            string firstValueText = textBox1.Text;
-            double firstValue = Convert.ToDouble(firstValueText);
-            string secondValueText = textBox2.Text;
-            double secondValue = Convert.ToDouble(secondValueText);
-            string calculatorName = ((Button) sender).Name;
-            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(calculatorName);
-            double result = calculator.Calculate(firstValue, secondValue);
-            label1.Text = Convert.ToString(result, CultureInfo.CurrentCulture);
+            try
+            {
+                string firstValueText = textBox1.Text;
+                double firstValue = Convert.ToDouble(firstValueText);
+                string secondValueText = textBox2.Text;
+                double secondValue = Convert.ToDouble(secondValueText);
+                string calculatorName = ((Button) sender).Name;
+                ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(calculatorName);
+                double result = calculator.Calculate(firstValue, secondValue);
+                label1.Text = Convert.ToString(result, CultureInfo.CurrentCulture);
+            }
+            catch (Exception exc)
+            {
+                label1.Text = exc.Message;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
