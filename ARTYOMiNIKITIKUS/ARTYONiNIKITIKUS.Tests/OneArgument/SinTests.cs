@@ -1,7 +1,7 @@
 ﻿using ARTYOMiNIKITIKUS;
 using NUnit.Framework;
 
-namespace ARTYONiNIKITIKUS.Tests.OneArguments
+namespace ARTYOMiNIKITIKUS.Tests.OneArguments
 {
     [TestFixture]
     public class SinTests
