@@ -51,10 +51,20 @@
   <ItemGroup>
     <Compile Include="ArgumentsFactoryTests\OneArgument.cs" />
     <Compile Include="ArgumentsFactoryTests\TwoArguments.cs" />
+    <Compile Include="OneArgument\TengradeX.cs" />
+    <Compile Include="OneArgument\TwogradeX.cs" />
+    <Compile Include="OneArgument\ArcCos.cs" />
+    <Compile Include="OneArgument\ArcCtg.cs" />
+    <Compile Include="OneArgument\ArcSin.cs" />
+    <Compile Include="OneArgument\ArcTg.cs" />
     <Compile Include="OneArgument\Cos.cs" />
     <Compile Include="OneArgument\Abs.cs" />
     <Compile Include="IOneArgumentCalculator.cs" />
     <Compile Include="OneArgumentFactory.cs" />
+    <Compile Include="OneArgument\Lg%28x%29.cs" />
+    <Compile Include="OneArgument\Ln%28x%29.cs" />
+    <Compile Include="OneArgument\XgradeTwo.cs" />
+    <Compile Include="TwoArguments\ngradeX.cs" />
     <Compile Include="TwoArguments\Plus.cs" />
     <Compile Include="TwoArguments\Division.cs" />
     <Compile Include="Form1.cs">

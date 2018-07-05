@@ -16,6 +16,8 @@ namespace ARTYOMiNIKITIKUS
                     return new Multiplication();
                 case "Division":
                     return new Division();
+                case "ngradeX":
+                    return new ngradeX();
                 default:
                     throw new Exception("error");
             }
