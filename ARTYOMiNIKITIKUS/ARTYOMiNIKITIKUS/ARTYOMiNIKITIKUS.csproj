@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArgumentsFactoryTests\OneArgument.cs" />
     <Compile Include="ArgumentsFactoryTests\TwoArguments.cs" />
     <Compile Include="OneArgument\Cos.cs" />
     <Compile Include="OneArgument\Abs.cs" />
