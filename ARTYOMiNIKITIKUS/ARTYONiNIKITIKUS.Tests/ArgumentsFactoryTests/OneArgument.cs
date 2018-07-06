@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace ARTYOMiNIKITIKUS.ArgumentsFactoryTests
+namespace ARTYOMiNIKITIKUS.Tests.ArgumentsFactoryTests
 {
     public class CalculatorOneArgument
     {

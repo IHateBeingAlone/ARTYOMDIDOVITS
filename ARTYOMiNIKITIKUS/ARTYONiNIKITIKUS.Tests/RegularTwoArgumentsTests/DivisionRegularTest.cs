@@ -9,7 +9,6 @@ namespace ARTYONiNIKITIKUS.Tests.SimpleTwoArgumentsTests
         [Test]
         public void CalculateTest()
         {
-            // подготовительные действия
             ITwoArgumentsCalculator calcultor = new Division();
             double actual = calcultor.Calculate(6, 2);
             Assert.AreEqual(3, actual);
