@@ -6,9 +6,9 @@ namespace ARTYOMiNIKITIKUS.Tests.TwoArguments
     [TestFixture]
     public class MinusTests
     {
-        [TestCase(8, 4, 4)]
-        [TestCase(16, 7, 9)]
-        [TestCase(84, 51, 33)]
+        [TestCase(12, 4, 8)]
+        [TestCase(16, 10, 6)]
+        [TestCase(84, 73, 11)]
         public void CalculateTest(double firstValue, double secondValue, double expected)
         {
             var calculator = new Minus();

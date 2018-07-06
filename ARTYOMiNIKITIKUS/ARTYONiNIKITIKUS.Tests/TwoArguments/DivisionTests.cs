@@ -6,9 +6,9 @@ namespace ARTYOMiNIKITIKUS.Tests.TwoArguments
     [TestFixture]
     public class DivisionTests
     {
-        [TestCase(16, 4, 4)]
-        [TestCase(18, 6, 3)]
-        [TestCase(27, 6, 4.5)]
+        [TestCase(16, 2, 8)]
+        [TestCase(30, 6, 5)]
+        [TestCase(33, 6, 5.5)]
         public void CalculateTest(double firstValue, double secondValue, double expected)
         {
             var calculator = new Division();
