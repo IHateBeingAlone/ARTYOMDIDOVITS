@@ -1,10 +1,10 @@
 ﻿using ARTYOMiNIKITIKUS.TwoArguments;
 using NUnit.Framework;
 
-namespace ARTYONiNIKITIKUS.Tests.TwoArgumentsTests
+namespace ARTYONiNIKITIKUS.Tests.TwoArguments
 {
     [TestFixture]
-    public class PlusTests
+    public class PlusRegularTests
     {
         [Test]
         public void CalculateTest()
