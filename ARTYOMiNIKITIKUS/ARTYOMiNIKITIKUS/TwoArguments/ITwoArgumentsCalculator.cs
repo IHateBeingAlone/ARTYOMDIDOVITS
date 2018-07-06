@@ -1,4 +1,4 @@
-﻿namespace ARTYOMiNIKITIKUS
+﻿namespace ARTYOMiNIKITIKUS.TwoArguments
 {
     public interface ITwoArgumentsCalculator
     {

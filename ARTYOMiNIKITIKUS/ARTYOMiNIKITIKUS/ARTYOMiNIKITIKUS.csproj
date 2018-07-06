@@ -45,8 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OneArgument\TengradeX.cs" />
-    <Compile Include="OneArgument\TwogradeX.cs" />
+    <Compile Include="OneArgument\TenToThePowerOfX.cs" />
+    <Compile Include="OneArgument\TwoToThePowerOfX.cs" />
     <Compile Include="OneArgument\ArcCos.cs" />
     <Compile Include="OneArgument\ArcCtg.cs" />
     <Compile Include="OneArgument\ArcSin.cs" />
@@ -57,8 +57,8 @@
     <Compile Include="OneArgument\OneArgumentFactory.cs" />
     <Compile Include="OneArgument\Lg%28x%29.cs" />
     <Compile Include="OneArgument\Ln%28x%29.cs" />
-    <Compile Include="OneArgument\XgradeTwo.cs" />
-    <Compile Include="TwoArguments\ngradeX.cs" />
+    <Compile Include="OneArgument\XToThePowerOfTwo.cs" />
+    <Compile Include="TwoArguments\NToThePowerOfX.cs" />
     <Compile Include="TwoArguments\Plus.cs" />
     <Compile Include="TwoArguments\Division.cs" />
     <Compile Include="Form1.cs">

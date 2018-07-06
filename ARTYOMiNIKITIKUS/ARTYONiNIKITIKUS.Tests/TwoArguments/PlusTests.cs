@@ -1,7 +1,7 @@
-﻿using ARTYOMiNIKITIKUS;
+﻿using ARTYOMiNIKITIKUS.TwoArguments;
 using NUnit.Framework;
 
-namespace ARTYOMiNIKITIKUS.Tests.TwoArguments
+namespace ARTYONiNIKITIKUS.Tests.TwoArguments
 {
     [TestFixture]
     public class PlusTests

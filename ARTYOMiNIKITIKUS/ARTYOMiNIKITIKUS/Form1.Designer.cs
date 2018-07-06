@@ -44,11 +44,11 @@
             this.ArcCos = new System.Windows.Forms.Button();
             this.ArcSin = new System.Windows.Forms.Button();
             this.LgX = new System.Windows.Forms.Button();
-            this.ngradeX = new System.Windows.Forms.Button();
-            this.TengradeX = new System.Windows.Forms.Button();
-            this.TwogradeX = new System.Windows.Forms.Button();
+            this.NToThePowerOfX = new System.Windows.Forms.Button();
+            this.TenToThePowerOfX = new System.Windows.Forms.Button();
+            this.TwoToThePowerOfX = new System.Windows.Forms.Button();
             this.LnX = new System.Windows.Forms.Button();
-            this.XgradeTwo = new System.Windows.Forms.Button();
+            this.XToThePowerOfTwo = new System.Windows.Forms.Button();
             this.ArcCtg = new System.Windows.Forms.Button();
             this.ArcTg = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -59,7 +59,7 @@
             this.textBox1.Location = new System.Drawing.Point(12, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(146, 33);
+            this.textBox1.Size = new System.Drawing.Size(146, 35);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
@@ -234,41 +234,41 @@
             this.LgX.TextChanged += new System.EventHandler(this.button1_Click);
             this.LgX.Click += new System.EventHandler(this.button1_Click);
             // 
-            // ngradeX
+            // NToThePowerOfX
             // 
-            this.ngradeX.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.ngradeX.Location = new System.Drawing.Point(272, 177);
-            this.ngradeX.Name = "ngradeX";
-            this.ngradeX.Size = new System.Drawing.Size(46, 48);
-            this.ngradeX.TabIndex = 23;
-            this.ngradeX.Text = "n^x";
-            this.ngradeX.UseVisualStyleBackColor = false;
-            this.ngradeX.TextChanged += new System.EventHandler(this.button_Click);
-            this.ngradeX.Click += new System.EventHandler(this.button_Click);
+            this.NToThePowerOfX.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.NToThePowerOfX.Location = new System.Drawing.Point(272, 177);
+            this.NToThePowerOfX.Name = "NToThePowerOfX";
+            this.NToThePowerOfX.Size = new System.Drawing.Size(46, 48);
+            this.NToThePowerOfX.TabIndex = 23;
+            this.NToThePowerOfX.Text = "n^x";
+            this.NToThePowerOfX.UseVisualStyleBackColor = false;
+            this.NToThePowerOfX.TextChanged += new System.EventHandler(this.button_Click);
+            this.NToThePowerOfX.Click += new System.EventHandler(this.button_Click);
             // 
-            // TengradeX
+            // TenToThePowerOfX
             // 
-            this.TengradeX.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.TengradeX.Location = new System.Drawing.Point(376, 177);
-            this.TengradeX.Name = "TengradeX";
-            this.TengradeX.Size = new System.Drawing.Size(46, 48);
-            this.TengradeX.TabIndex = 22;
-            this.TengradeX.Text = "10^x";
-            this.TengradeX.UseVisualStyleBackColor = false;
-            this.TengradeX.TextChanged += new System.EventHandler(this.button1_Click);
-            this.TengradeX.Click += new System.EventHandler(this.button1_Click);
+            this.TenToThePowerOfX.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.TenToThePowerOfX.Location = new System.Drawing.Point(376, 177);
+            this.TenToThePowerOfX.Name = "TenToThePowerOfX";
+            this.TenToThePowerOfX.Size = new System.Drawing.Size(46, 48);
+            this.TenToThePowerOfX.TabIndex = 22;
+            this.TenToThePowerOfX.Text = "10^x";
+            this.TenToThePowerOfX.UseVisualStyleBackColor = false;
+            this.TenToThePowerOfX.TextChanged += new System.EventHandler(this.button1_Click);
+            this.TenToThePowerOfX.Click += new System.EventHandler(this.button1_Click);
             // 
-            // TwogradeX
+            // TwoToThePowerOfX
             // 
-            this.TwogradeX.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.TwogradeX.Location = new System.Drawing.Point(376, 123);
-            this.TwogradeX.Name = "TwogradeX";
-            this.TwogradeX.Size = new System.Drawing.Size(46, 48);
-            this.TwogradeX.TabIndex = 21;
-            this.TwogradeX.Text = "2^x";
-            this.TwogradeX.UseVisualStyleBackColor = false;
-            this.TwogradeX.TextChanged += new System.EventHandler(this.button1_Click);
-            this.TwogradeX.Click += new System.EventHandler(this.button1_Click);
+            this.TwoToThePowerOfX.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.TwoToThePowerOfX.Location = new System.Drawing.Point(376, 123);
+            this.TwoToThePowerOfX.Name = "TwoToThePowerOfX";
+            this.TwoToThePowerOfX.Size = new System.Drawing.Size(46, 48);
+            this.TwoToThePowerOfX.TabIndex = 21;
+            this.TwoToThePowerOfX.Text = "2^x";
+            this.TwoToThePowerOfX.UseVisualStyleBackColor = false;
+            this.TwoToThePowerOfX.TextChanged += new System.EventHandler(this.button1_Click);
+            this.TwoToThePowerOfX.Click += new System.EventHandler(this.button1_Click);
             // 
             // LnX
             // 
@@ -282,17 +282,17 @@
             this.LnX.TextChanged += new System.EventHandler(this.button1_Click);
             this.LnX.Click += new System.EventHandler(this.button1_Click);
             // 
-            // XgradeTwo
+            // XToThePowerOfTwo
             // 
-            this.XgradeTwo.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.XgradeTwo.Location = new System.Drawing.Point(272, 123);
-            this.XgradeTwo.Name = "XgradeTwo";
-            this.XgradeTwo.Size = new System.Drawing.Size(46, 48);
-            this.XgradeTwo.TabIndex = 19;
-            this.XgradeTwo.Text = "x^2";
-            this.XgradeTwo.UseVisualStyleBackColor = false;
-            this.XgradeTwo.TextChanged += new System.EventHandler(this.button1_Click);
-            this.XgradeTwo.Click += new System.EventHandler(this.button1_Click);
+            this.XToThePowerOfTwo.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.XToThePowerOfTwo.Location = new System.Drawing.Point(272, 123);
+            this.XToThePowerOfTwo.Name = "XToThePowerOfTwo";
+            this.XToThePowerOfTwo.Size = new System.Drawing.Size(46, 48);
+            this.XToThePowerOfTwo.TabIndex = 19;
+            this.XToThePowerOfTwo.Text = "x^2";
+            this.XToThePowerOfTwo.UseVisualStyleBackColor = false;
+            this.XToThePowerOfTwo.TextChanged += new System.EventHandler(this.button1_Click);
+            this.XToThePowerOfTwo.Click += new System.EventHandler(this.button1_Click);
             // 
             // ArcCtg
             // 
@@ -325,11 +325,11 @@
             this.BackColor = System.Drawing.Color.PaleGreen;
             this.ClientSize = new System.Drawing.Size(552, 289);
             this.Controls.Add(this.LgX);
-            this.Controls.Add(this.ngradeX);
-            this.Controls.Add(this.TengradeX);
-            this.Controls.Add(this.TwogradeX);
+            this.Controls.Add(this.NToThePowerOfX);
+            this.Controls.Add(this.TenToThePowerOfX);
+            this.Controls.Add(this.TwoToThePowerOfX);
             this.Controls.Add(this.LnX);
-            this.Controls.Add(this.XgradeTwo);
+            this.Controls.Add(this.XToThePowerOfTwo);
             this.Controls.Add(this.ArcCtg);
             this.Controls.Add(this.ArcTg);
             this.Controls.Add(this.ArcCos);
@@ -372,11 +372,11 @@
         private System.Windows.Forms.Button ArcCos;
         private System.Windows.Forms.Button ArcSin;
         private System.Windows.Forms.Button LgX;
-        private System.Windows.Forms.Button ngradeX;
-        private System.Windows.Forms.Button TengradeX;
-        private System.Windows.Forms.Button TwogradeX;
+        private System.Windows.Forms.Button NToThePowerOfX;
+        private System.Windows.Forms.Button TenToThePowerOfX;
+        private System.Windows.Forms.Button TwoToThePowerOfX;
         private System.Windows.Forms.Button LnX;
-        private System.Windows.Forms.Button XgradeTwo;
+        private System.Windows.Forms.Button XToThePowerOfTwo;
         private System.Windows.Forms.Button ArcCtg;
         private System.Windows.Forms.Button ArcTg;
     }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARTYOMiNIKITIKUS", "ARTYOMi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARTYOMiNIKITIKUS.Tests", "ARTYONiNIKITIKUS.Tests\ARTYOMiNIKITIKUS.Tests.csproj", "{554383B1-1699-4A73-9E4E-6339AD462FAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{1CABF847-B910-4C3E-AA49-C2C0B7354F4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{554383B1-1699-4A73-9E4E-6339AD462FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{554383B1-1699-4A73-9E4E-6339AD462FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{554383B1-1699-4A73-9E4E-6339AD462FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CABF847-B910-4C3E-AA49-C2C0B7354F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CABF847-B910-4C3E-AA49-C2C0B7354F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CABF847-B910-4C3E-AA49-C2C0B7354F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CABF847-B910-4C3E-AA49-C2C0B7354F4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

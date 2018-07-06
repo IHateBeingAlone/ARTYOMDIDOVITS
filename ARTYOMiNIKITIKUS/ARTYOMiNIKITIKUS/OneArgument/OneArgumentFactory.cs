@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ARTYOMiNIKITIKUS
+namespace ARTYOMiNIKITIKUS.OneArgument
 {
     public static class OneArgumentFactory
     {
@@ -25,9 +25,9 @@ namespace ARTYOMiNIKITIKUS
                 case "ArcCtg": return new ArcCtg();
                 case "LgX": return new LgX();
                 case "LnX": return new LnX();
-                case "XgradeTwo": return new XgradeTwo();
-                case "TengradeX": return new TengradeX();
-                case "TwogradeX": return new TwogradeX();
+                case "XToThePowerOfTwo": return new XToThePowerOfTwo();
+                case "TenToThePowerOfX": return new TenToThePowerOfX();
+                case "TwoToThePowerOfX": return new TwoToThePowerOfX();
 
                 default:
                     throw new Exception("error");

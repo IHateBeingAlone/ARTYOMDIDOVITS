@@ -48,8 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArgumentsFactoryTests\OneArgument.cs" />
-    <Compile Include="ArgumentsFactoryTests\TwoArguments.cs" />
+    <Compile Include="OneArgument\OneArgumentTests.cs" />
+    <Compile Include="TwoArguments\TwoArgumentsTests.cs" />
     <Compile Include="OneArgument\AbsTests.cs" />
     <Compile Include="OneArgument\ArcCosTests.cs" />
     <Compile Include="OneArgument\ArcCtgTests.cs" />
@@ -61,19 +61,19 @@
     <Compile Include="OneArgument\Ln%28x%29Tests.cs" />
     <Compile Include="OneArgument\SinTests.cs" />
     <Compile Include="OneArgument\SqrtTests.cs" />
-    <Compile Include="OneArgument\TengradeXTests.cs" />
+    <Compile Include="OneArgument\TenToThePowerOfXTests.cs" />
     <Compile Include="OneArgument\TgTests.cs" />
-    <Compile Include="OneArgument\TwogradeXTests.cs" />
-    <Compile Include="OneArgument\XgradeTwoTests.cs" />
+    <Compile Include="OneArgument\TwoToThePowerOfXTests.cs" />
+    <Compile Include="OneArgument\XToThePowerOfTwoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegularTwoArgumentsTests\MultiplicationRegularTest.cs" />
-    <Compile Include="RegularTwoArgumentsTests\DivisionRegularTest.cs" />
-    <Compile Include="RegularTwoArgumentsTests\PlusRegularTest.cs" />
-    <Compile Include="RegularTwoArgumentsTests\MinusRegularTest.cs" />
+    <Compile Include="TwoArguments\MultiplicationRegularTest.cs" />
+    <Compile Include="TwoArguments\DivisionRegularTest.cs" />
+    <Compile Include="TwoArguments\PlusRegularTest.cs" />
+    <Compile Include="TwoArguments\MinusRegularTest.cs" />
     <Compile Include="TwoArguments\DivisionTests.cs" />
     <Compile Include="TwoArguments\MinusTests.cs" />
     <Compile Include="TwoArguments\MultiplicatoinTests.cs" />
-    <Compile Include="TwoArguments\ngradeXTests.cs" />
+    <Compile Include="TwoArguments\NToThePowerOfXTests.cs" />
     <Compile Include="TwoArguments\PlusTests.cs" />
   </ItemGroup>
   <ItemGroup>

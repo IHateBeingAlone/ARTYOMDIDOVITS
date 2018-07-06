@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Globalization;
 using System.Windows.Forms;
+using ARTYOMiNIKITIKUS.OneArgument;
+using ARTYOMiNIKITIKUS.TwoArguments;
 
 namespace ARTYOMiNIKITIKUS
 {

@@ -1,7 +1,7 @@
-﻿using ARTYOMiNIKITIKUS;
+﻿using ARTYOMiNIKITIKUS.OneArgument;
 using NUnit.Framework;
 
-namespace ARTYOMiNIKITIKUS.Tests.OneArguments
+namespace ARTYONiNIKITIKUS.Tests.OneArgument
 {
     [TestFixture]
     public class TgTests

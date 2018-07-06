@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ARTYOMiNIKITIKUS
+namespace ARTYOMiNIKITIKUS.OneArgument
 {
     public class LnX: IOneArgumentCalculator
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ARTYOMiNIKITIKUS
+namespace ARTYOMiNIKITIKUS.TwoArguments
 {
     public class Division: ITwoArgumentsCalculator
     {
