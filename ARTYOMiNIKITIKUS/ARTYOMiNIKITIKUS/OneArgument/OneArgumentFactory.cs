@@ -4,6 +4,11 @@ namespace ARTYOMiNIKITIKUS
 {
     public static class OneArgumentFactory
     {
+        /// <summary>
+        /// fabrica for function of one variable
+        /// </summary>
+        /// <param name="calculatorName"> the definition of the function click </param>
+        /// <returns> return incstanse of class </returns>
         public static IOneArgumentCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

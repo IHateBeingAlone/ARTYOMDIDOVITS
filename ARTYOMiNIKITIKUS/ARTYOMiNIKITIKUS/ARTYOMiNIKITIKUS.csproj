@@ -53,8 +53,8 @@
     <Compile Include="OneArgument\ArcTg.cs" />
     <Compile Include="OneArgument\Cos.cs" />
     <Compile Include="OneArgument\Abs.cs" />
-    <Compile Include="IOneArgumentCalculator.cs" />
-    <Compile Include="OneArgumentFactory.cs" />
+    <Compile Include="OneArgument\IOneArgumentCalculator.cs" />
+    <Compile Include="OneArgument\OneArgumentFactory.cs" />
     <Compile Include="OneArgument\Lg%28x%29.cs" />
     <Compile Include="OneArgument\Ln%28x%29.cs" />
     <Compile Include="OneArgument\XgradeTwo.cs" />
@@ -67,7 +67,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="ITwoArgumentsCalculator.cs" />
+    <Compile Include="TwoArguments\ITwoArgumentsCalculator.cs" />
     <Compile Include="TwoArguments\Minus.cs" />
     <Compile Include="TwoArguments\Multiplication.cs" />
     <Compile Include="OneArgument\Ctg.cs" />
@@ -76,7 +76,7 @@
     <Compile Include="OneArgument\Sin.cs" />
     <Compile Include="OneArgument\Sqrt.cs" />
     <Compile Include="OneArgument\Tg.cs" />
-    <Compile Include="TwoArgumentsFactory.cs" />
+    <Compile Include="TwoArguments\TwoArgumentsFactory.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
