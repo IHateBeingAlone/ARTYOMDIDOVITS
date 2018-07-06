@@ -14,7 +14,7 @@ namespace ARTYOMiNIKITIKUS
         {
             if (secondArgument == 0)
             {
-                throw new Exception("Error! Division by zero");
+                throw new Exception("Error!!! Division by zero");
             }
             return firstArgument / secondArgument;
         }
